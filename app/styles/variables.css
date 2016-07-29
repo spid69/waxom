@@ -1,0 +1,85 @@
+:root {
+  --inner: 76.875rem;
+
+
+/*    --inner: 1230px;*/
+    /*Typography*/
+
+    /*Base*/
+
+    --fStackCuprum: 'Cuprum', sans-serif;
+    --fStackBadScript: 'Bad script',cursive, sans-serif;
+    --fStackLato: 'Lato', sans-serif;
+    --fStackMerriweather: 'Merriweather', serif;
+
+    --fSize: 16px;
+    --fFamily: var(--fStack);
+    --fColor: rgba(33,33,33, 1);/*коричнево-черный*/
+    --lineHeight: 1.75;
+    --fWeight: 300;
+
+    /* Alt */
+
+    --alt-fFamily: "Lato", "Helvetica",
+      sans-serif;
+    --alt-fColor: rgba(80,80,80, 1);  /*мокрый асфальт*/
+    --alt-lineHeight: var(--lineHeight);
+    --alt-fWeight: 300;
+
+    /*// Headings*/
+
+    --heading-fFamily: var(--fStackBadScript);
+    --heading-fSize: calc(var(--fSize)*1.8);
+    --heading-fWeight: 700;
+    --heading-fColor: inherit;
+    --heading-lineHeight: calc(var(--lineHeight) * 1.15);
+
+
+    --black: #000;
+    --white: #fff;
+
+    --colorPrimary:rgb(13%, 11%, 10%, 1); /*#555;*/
+    --colorSecondary:rgb(31%, 20%, 15%, 1);/* #888;*/
+    --colorNeutral:rgb(96%, 96%, 97%, 1);/* #666;*/
+
+    --linkColor:var(--color-primary);
+    --linkColorHover:var(--color-secondary);
+    --linkColorVisited:var(--link-color);
+    --linkColorFocus:var(--color-secondary);
+
+    --bgColor: rgba(245,245,245, 1); /*дымчато-серый*/
+
+    /* // TEXTURE  =================================*/
+
+    --borderColor: #d8d8d8;
+    --borderStyle: solid;
+    --borderWidth: 1px;
+    --borderRadius: 4px;
+    --border: var(--borderWidth) var(--borderStyle) var(--borderColor);
+
+    /*Proportions */
+    --spacing: calc( var(--lineHeight) * 1rem);
+    --smallSpacing: calc(var(--spacing) / 2);
+
+}
+
+
+/*//media-query break-points (bp-) (960px/640px/480px)*/
+@custom-media --bp-small (min-width: 25em);
+@custom-media --bp-medium (min-width: 48em);
+@custom-media --bp-large (min-width: 60em);
+
+
+html {
+  height: 100%;
+}
+body {
+  lost-utility: edit;
+  background: aliceblue;
+}
+
+.l-inner {
+  lost-center: var(--inner);
+   background: linear-gradient(90deg, #211b19 0%, #4e3427 100%);
+
+}

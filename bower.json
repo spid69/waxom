@@ -1,0 +1,16 @@
+{
+  "name": "first",
+  "private": true,
+  "dependencies": {
+    "reset-css": "^2.0.2011012603",
+    "jquery": "^3.1.0",
+    "font-awesome": "^4.6.3",
+    "animate.css": "^3.5.2",
+    "wow": "wowjs#^1.1.2",
+    "slider-pro": "^1.2.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}

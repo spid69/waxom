@@ -1,0 +1,9 @@
+
+.grid-inner {
+  lost-center: 980px;
+  margin-top: 1rem;
+}
+
+.g-half {
+  lost-column:1/2;
+}
